@@ -1603,12 +1603,22 @@ FW_VERSIONS = {
       b'\xf1\x00NQ5 FR_CMR AT USA LHD 1.00 1.00 99211-P1030 662',
       b'\xf1\x00NQ5 FR_CMR AT USA LHD 1.00 1.00 99211-P1040 663',
       b'\xf1\x00NQ5 FR_CMR AT USA LHD 1.00 1.00 99211-P1060 665',
+      b'\xf1\x00NQ5 FR_CMR AT USA LHD 1.00 1.00 99211-P1070 690',
     ],
     (Ecu.fwdRadar, 0x7d0, None): [
       b'\xf1\x00NQ5__               1.00 1.02 99110-P1000         ',
       b'\xf1\x00NQ5__               1.00 1.03 99110-P1000         ',
       b'\xf1\x00NQ5__               1.01 1.03 99110-CH000         ',
       b'\xf1\x00NQ5__               1.01 1.03 99110-P1000         ',
+    ],
+     (Ecu.cornerRadar, 0x7B7, None): [
+       b'\xf1\x00NQ5 BCW RR 1.00 , 1.00 (\x81\x98\x83#\x02u\x06Y',
+     ],
+    (Ecu.hvac, 0x7B3, None): [
+      b'\xf1\x00NQ5PH 97255-CH100UNIT-HEATER CONTROL 1.03NQ5PHEV DATC 1.2 1.01',
+    ],
+    (Ecu.parkingAdas, 0x7B1, None): [
+      b'\xf1\x10NQ5  ADAS_PRK ANL 1.01 1.06 99910-CH330',
     ],
   },
   CAR.GENESIS_GV70_1ST_GEN: {
