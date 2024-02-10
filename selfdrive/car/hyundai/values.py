@@ -634,11 +634,3 @@ DBC = {
   CAR.KIA_NIRO_PHEV_2022: dbc_dict('hyundai_kia_generic', 'hyundai_kia_mando_front_radar_generated'),
   CAR.STARIA_4TH_GEN: dbc_dict('hyundai_canfd', None),
 }
-
-  CAR.KIA_SPORTAGE_5TH_GEN: {
-    (Ecu.fwdRadar, 0x7D0, None): [b'\xf1\x00NQ5__               1.01 1.03 99110-CH000         ',],
-    (Ecu.fwdCamera, 0x7C4, None): [b'\xf1\x00NQ5 FR_CMR AT USA LHD 1.00 1.00 99211-P1070 690',],  
-    (Ecu.cornerRadar, 0x7B7, None): [b'\xf1\x00NQ5 BCW RR 1.00 , 1.00 (\x81\x98\x83#\x02u\x06Y',],
-    (Ecu.hvac, 0x7B3, None): [b'\xf1\x00NQ5PH 97255-CH100UNIT-HEATER CONTROL 1.03NQ5PHEV DATC 1.2 1.01',],
-    (Ecu.parkingAdas, 0x7B1, None): [b'\xf1\x10NQ5  ADAS_PRK ANL 1.01 1.06 99910-CH330',],
-  },
